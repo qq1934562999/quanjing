@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /logs/
+
+Sitemap: https://www.yijing360.com/sitemap.xml
+
+Crawl-delay: 1
