@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="联系艺景手绘 - 专业景区手绘地图与智慧导览系统解决方案提供商，免费咨询获取定制化方案。">
+    <meta name="keywords" content="联系艺景手绘,咨询热线,景区手绘地图咨询,智慧导览系统报价">
+    <title>联系我们 - 艺景手绘专业景区手绘地图与智慧导览系统</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="index.html" class="logo">艺景手绘</a>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="nav-link">首页</a></li>
+                    <li><a href="solutions.html" class="nav-link">解决方案</a></li>
+                    <li><a href="about.html" class="nav-link">关于我们</a></li>
+                    <li><a href="contact.html" class="nav-link active">联系我们</a></li>
+                </ul>
+                <div class="mobile-menu-btn">☰</div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 页面标题 -->
+    <section class="contact-hero">
+        <div class="container">
+            <div class="section-header">
+                <h1 class="section-title">联系我们</h1>
+                <p class="section-subtitle">立即获取免费的景区数字化解决方案咨询</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系内容 -->
+    <section class="section">
+        <div class="container">
+            <div class="contact-content">
+                <!-- 联系信息 -->
+                <div class="contact-info-card">
+                    <h3>联系方式</h3>
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div class="contact-details">
+                            <h4>咨询热线</h4>
+                            <p>400-888-8888（全国免费）<br>010-12345678（北京总部）</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">✉️</div>
+                        <div class="contact-details">
+                            <h4>电子邮箱</h4>
+                            <p>contact@yijing.com（业务咨询）<br>support@yijing.com（技术支持）</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-details">
+                            <h4>公司地址</h4>
+                            <p>北京市朝阳区科技园区<br>创新大厦8层</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">🕐</div>
+                        <div class="contact-details">
+                            <h4>工作时间</h4>
+                            <p>周一至周五 9:00-18:00<br>节假日提供在线客服</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">💬</div>
+                        <div class="contact-details">
+                            <h4>在线客服</h4>
+                            <p>微信客服：yijing_service<br>QQ客服：123456789</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 联系表单 -->
+                <div class="contact-form-card">
+                    <h3>在线咨询</h3>
+                    <form id="contactForm" onsubmit="handleSubmit(event)">
+                        <div class="form-group">
+                            <label class="form-label" for="name">姓名 *</label>
+                            <input type="text" id="name" name="name" class="form-input" placeholder="请输入您的姓名" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="phone">手机号码 *</label>
+                            <input type="tel" id="phone" name="phone" class="form-input" placeholder="请输入您的手机号码" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="email">电子邮箱</label>
+                            <input type="email" id="email" name="email" class="form-input" placeholder="请输入您的电子邮箱">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="company">景区名称 *</label>
+                            <input type="text" id="company" name="company" class="form-input" placeholder="请输入景区名称" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="service">咨询服务类型 *</label>
+                            <select id="service" name="service" class="form-input form-select" required>
+                                <option value="">请选择服务类型</option>
+                                <option value="手绘地图">手绘地图定制</option>
+                                <option value="智慧导览">智慧导览系统</option>
+                                <option value="VR全景">VR全景制作</option>
+                                <option value="整体方案">整体数字化方案</option>
+                                <option value="其他">其他需求</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="message">需求描述 *</label>
+                            <textarea id="message" name="message" class="form-input form-textarea" placeholder="请详细描述您的需求，包括景区规模、期望效果等..." required></textarea>
+                        </div>
+                        <button type="submit" class="form-submit">提交咨询</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 咨询FAQ -->
+    <section class="section contact-faq" style="background: var(--color-bg-light);">
+        <div class="container">
+            <h2>咨询常见问题</h2>
+            <p>了解咨询流程，快速获取解决方案</p>
+            <div class="contact-faq-grid">
+                <div class="faq-item">
+                    <h4 class="faq-question">提交咨询后多久能收到回复？</h4>
+                    <p class="faq-answer">艺景手绘承诺在<strong>24小时内</strong>回复您的咨询。工作时间内提交的咨询，我们通常在<strong>2小时内</strong>进行初次联系。24小时全天在线，看到就会回复。如需紧急沟通，可直接拨打热线<strong>400-888-8888</strong>。</p>
+                </div>
+                <div class="faq-item">
+                    <h4 class="faq-question">首次咨询需要提供哪些信息？</h4>
+                    <p class="faq-answer">为提高咨询效率，建议您提前准备：<strong>具体的出图内容</strong>（点位、数量、范围）、<strong>期望风格</strong>（有参考意向图最佳）、<strong>期望交图时间</strong>、<strong>预算范围</strong>。这些信息将帮助我们快速制定初步方案。</p>
+                </div>
+                <div class="faq-item">
+                    <h4 class="faq-question">是否提供免费方案设计？</h4>
+                    <p class="faq-answer">艺景手绘提供<strong>免费的初步方案设计</strong>服务。在您提交咨询后，我们的专业团队将在3-5个工作日内出具初步方案，包含服务内容、技术方案、报价范围。如需深入方案设计，可签订意向合作协议。</p>
+                </div>
+                <div class="faq-item">
+                    <h4 class="faq-question">如何判断方案是否适合我的景区？</h4>
+                    <p class="faq-answer">艺景手绘采用<strong>需求分析-方案设计-案例参考-实地考察</strong>的标准化流程。我们将提供同类景区的成功案例供您参考，并根据您的具体需求定制化调整方案。方案确认前，支持多次修改直至满意。</p>
+                </div>
+                <div class="faq-item">
+                    <h4 class="faq-question">支持实地考察吗？</h4>
+                    <p class="faq-answer">艺景手绘提供<strong>免费实地考察服务</strong>（交通费自理）。针对大型项目（合同金额20万元以上），我司将派专业团队实地调研，现场采集数据、分析需求，确保方案精准贴合景区实际情况。6年景观设计从业经验，专业靠谱。</p>
+                </div>
+                <div class="faq-item">
+                    <h4 class="faq-question">可以分期付款吗？</h4>
+                    <p class="faq-answer">艺景手绘提供灵活的付款方式。一般采用<strong>分期付款</strong>模式：合同签订时支付30-40%定金，草图确认后支付30%，定稿后支付尾款。长期合作客户可享受更优惠的付款条件。多单可优惠。</p>
+                </div>
+                <div class="faq-item">
+                    <h4 class="faq-question">草图不满意可以修改吗？</h4>
+                    <p class="faq-answer">当然可以！艺景手绘承诺<strong>草图可随意修改</strong>2-3次。线稿可免费修改3次，超过3次需要额外收费（每次10+元）。定稿后如若微调可视情况免费更改，修改到满意为止。</p>
+                </div>
+                <div class="faq-item">
+                    <h4 class="faq-question">可以加急处理吗？</h4>
+                    <p class="faq-answer">艺景手绘支持<strong>加急处理</strong>服务。根据项目紧急程度，最快可在7个工作日内完成手绘地图制作。急单需要额外加收费用，具体金额根据项目规模和紧急程度协商。秒回秒答，不拖稿。</p>
+                </div>
+                <div class="faq-item">
+                    <h4 class="faq-question">定稿后可以退单吗？</h4>
+                    <p class="faq-answer">艺景手绘的退费政策如下：<strong>初稿不满意可退50%</strong>，<strong>1-3次修改后不满意可退30%</strong>，超过三次修改后可退20%。因为不乏一些故意刁难、骗稿、以各种理由欲免费设计的人，望亲谅解我们设计师黑眼圈下的辛劳。</p>
+                </div>
+                <div class="faq-item">
+                    <h4 class="faq-question">如何获取优惠价格？</h4>
+                    <p class="faq-answer">艺景手绘提供多种优惠方式：<strong>多单优惠</strong>（同时定制多张地图享受折扣）、<strong>长期合作优惠</strong>（签订年度合作协议）、<strong>推荐优惠</strong>（老客户推荐新客户享受返现）。具体优惠方案请咨询在线客服。</p>
+                </div>
+                <div class="faq-item">
+                    <h4 class="faq-question">提供发票吗？</h4>
+                    <p class="faq-answer">艺景手绘支持<strong>开具发票</strong>服务。提供增值税普通发票和专用发票，开票内容为"设计服务费"。需要开票的客户请在下单前说明，开票周期为3-5个工作日。</p>
+                </div>
+                <div class="faq-item">
+                    <h4 class="faq-question">源文件可以商用吗？</h4>
+                    <p class="faq-answer">确认收货后，艺景手绘将发送<strong>PSD/AI源文件</strong>，您可以免费商用、修改、二次开发。所有作品均为原创设计，无版权纠纷。支持手绘板/平板绘制，满足高清印刷需求。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 服务承诺 -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">服务承诺</h2>
+                <p class="section-subtitle">用心服务每一位客户，承诺每一份作品</p>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;">
+                <div style="background: white; border-radius: 16px; padding: 40px; text-align: center; box-shadow: var(--shadow-sm);">
+                    <div style="font-size: 64px; margin-bottom: 20px;">✅</div>
+                    <h3 style="font-size: 20px; font-weight: 700; margin-bottom: 12px;">草图随意修改</h3>
+                    <p style="font-size: 14px; color: var(--color-text-light); line-height: 1.8;">
+                        草图阶段可修改2-3次，线稿阶段可免费修改3次。修改到满意为止，定稿前不收费。
+                    </p>
+                </div>
+                <div style="background: white; border-radius: 16px; padding: 40px; text-align: center; box-shadow: var(--shadow-sm);">
+                    <div style="font-size: 64px; margin-bottom: 20px;">⚡</div>
+                    <h3 style="font-size: 20px; font-weight: 700; margin-bottom: 12px;">快速响应服务</h3>
+                    <p style="font-size: 14px; color: var(--color-text-light); line-height: 1.8;">
+                        24小时在线服务，秒回秒答。出图快，品质高，可接急单。回复时间：12:00-24:00。
+                    </p>
+                </div>
+                <div style="background: white; border-radius: 16px; padding: 40px; text-align: center; box-shadow: var(--shadow-sm);">
+                    <div style="font-size: 64px; margin-bottom: 20px;">🔒</div>
+                    <h3 style="font-size: 20px; font-weight: 700; margin-bottom: 12px;">售后无忧保障</h3>
+                    <p style="font-size: 14px; color: var(--color-text-light); line-height: 1.8;">
+                        提供1年免费技术支持服务。后续修改按工时计费，可签订年度维护合同享受优先响应。
+                    </p>
+                </div>
+                <div style="background: white; border-radius: 16px; padding: 40px; text-align: center; box-shadow: var(--shadow-sm);">
+                    <div style="font-size: 64px; margin-bottom: 20px;">💰</div>
+                    <h3 style="font-size: 20px; font-weight: 700; margin-bottom: 12px;">价格透明合理</h3>
+                    <p style="font-size: 14px; color: var(--color-text-light); line-height: 1.8;">
+                        根据点位、难易度、工作量定价。价格透明，无中间商赚差价。预算高低都可画。
+                    </p>
+                </div>
+                <div style="background: white; border-radius: 16px; padding: 40px; text-align: center; box-shadow: var(--shadow-sm);">
+                    <div style="font-size: 64px; margin-bottom: 20px;">📁</div>
+                    <h3 style="font-size: 20px; font-weight: 700; margin-bottom: 12px;">源文件交付</h3>
+                    <p style="font-size: 14px; color: var(--color-text-light); line-height: 1.8;">
+                        确认收货后发送PSD/AI源文件，最小边5000像素，分辨率300，满足高清印刷需求。
+                    </p>
+                </div>
+                <div style="background: white; border-radius: 16px; padding: 40px; text-align: center; box-shadow: var(--shadow-sm);">
+                    <div style="font-size: 64px; margin-bottom: 20px;">🎨</div>
+                    <h3 style="font-size: 20px; font-weight: 700; margin-bottom: 12px;">品质保证</h3>
+                    <p style="font-size: 14px; color: var(--color-text-light); line-height: 1.8;">
+                        10+年设计经验，保质保量，不拖稿。纯原创设计，不糊弄人，帮助理清思路修改设计方案。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section cta">
+        <div class="container">
+            <h2>立即开启景区数字化升级之旅</h2>
+            <p>专业团队随时待命，为您提供最优质的景区数字化解决方案。草图可改，定稿前不收费，修改到满意为止。</p>
+            <a href="#" onclick="document.getElementById('contactForm').scrollIntoView({behavior: 'smooth'})" class="btn btn-primary">立即咨询</a>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="footer-logo">艺景手绘</div>
+                    <p class="footer-desc">专业景区手绘地图与智慧导览系统解决方案提供商。为5A/4A级景区提供一站式数字化服务，助力全域旅游智慧化升级。</p>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">快速链接</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="solutions.html">解决方案</a></li>
+                        <li><a href="about.html">关于我们</a></li>
+                        <li><a href="contact.html">联系我们</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">服务范围</h4>
+                    <ul class="footer-links">
+                        <li><a href="solutions.html">手绘地图定制</a></li>
+                        <li><a href="solutions.html">智慧导览系统</a></li>
+                        <li><a href="solutions.html">VR全景制作</a></li>
+                        <li><a href="solutions.html">景区数字化</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">联系我们</h4>
+                    <ul class="footer-contact">
+                        <li>📞 400-888-8888</li>
+                        <li>✉️ contact@yijing.com</li>
+                        <li>📍 北京市朝阳区科技园</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 艺景手绘 All Rights Reserved. 保留所有权利</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('.header');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+        const navLinks = document.querySelector('.nav-links');
+
+        mobileMenuBtn.addEventListener('click', function() {
+            navLinks.classList.toggle('active');
+        });
+
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', function() {
+                navLinks.classList.remove('active');
+            });
+        });
+
+        function handleSubmit(event) {
+            event.preventDefault();
+
+            const formData = {
+                name: document.getElementById('name').value,
+                phone: document.getElementById('phone').value,
+                email: document.getElementById('email').value,
+                company: document.getElementById('company').value,
+                service: document.getElementById('service').value,
+                message: document.getElementById('message').value
+            };
+
+            console.log('表单提交数据:', formData);
+
+            alert('感谢您的咨询！\n\n我们已收到您的信息，将在24小时内与您联系。\n\n如有紧急需求，请直接拨打：400-888-8888');
+
+            document.getElementById('contactForm').reset();
+        }
+    </script>
+</body>
+</html>
